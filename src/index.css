@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(34,238,135);
+background: -moz-radial-gradient(circle, rgba(34,238,135,1) 18%, rgba(39,234,196,1) 25%, rgba(34,238,135,1) 39%, rgba(41,232,221,1) 46%, rgba(29,241,73,1) 53%, rgba(41,232,221,1) 57%, rgba(34,238,135,1) 67%);
+background: -webkit-radial-gradient(circle, rgba(34,238,135,1) 18%, rgba(39,234,196,1) 25%, rgba(34,238,135,1) 39%, rgba(41,232,221,1) 46%, rgba(29,241,73,1) 53%, rgba(41,232,221,1) 57%, rgba(34,238,135,1) 67%);
+background: radial-gradient(circle, rgba(34,238,135,1) 18%, rgba(39,234,196,1) 25%, rgba(34,238,135,1) 39%, rgba(41,232,221,1) 46%, rgba(29,241,73,1) 53%, rgba(41,232,221,1) 57%, rgba(34,238,135,1) 67%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22ee87",endColorstr="#22ee87",GradientType=1);
 }
 
 code {
+  font-family: 'Roboto', sans-serif;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.card{
+  width: 18rem;
+  
+}
+
+.headerStyle {
+padding-top:20px ;
+padding-bottom: 20px;
+color: black;
+}
+
+.tituloEstilo {
+  font-weight:400 ;
+  color: rgb(0, 0, 0);
+}
+
+.logo {
+  width: 700px;
+  margin-left: 600px;
+}
+
+
+.cardEstilo {
+  background-color: rgb(219, 224, 209);
 }
